@@ -1,0 +1,16 @@
+function factorialize(num) {
+
+  var sum = 1;
+
+  for(var i = 1; i <= num; i++)
+  {
+    sum *= i;
+    console.log(sum);
+    console.log(num);
+    console.log(i);
+  }
+
+  return sum;
+}
+
+factorialize(5);
